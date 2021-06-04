@@ -10,6 +10,8 @@ public abstract class Duck {
         flyBehavior = fb;
     }
 
+    public FlyBehavior getFlyBehavior() { return flyBehavior;}
+
     abstract String display();
 
     public void performFly() {
