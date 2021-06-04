@@ -3,7 +3,7 @@ package com.PatosEnterprise.patosSim;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class Integration {
+public class IntegrationTest {
 
     @Test
     public void integrationChangeDuckBehavior() {
